@@ -15,7 +15,7 @@
 
 # include <pocketsphinx.h>
 
-# define
-# define
+// # define
+// # define
 
 #endif

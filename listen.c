@@ -14,8 +14,8 @@
 
 int				main(void)
 {
-	system("pocketsphinx_continuous -inmic yes -logfn /dev/null \
-		-lm support/en-us.lm.bin -dict support/cmudict-en-us.dict");
+	system("pocketsphinx_continuous -inmic yes -logfn /dev/null\
+		-lm support/9005.lm -dict support/9005.dic");
 	// -inmic yes : listen through mic input
 	// -logfn /dev/null : silence log output onto terminal
 }
