@@ -14,7 +14,8 @@
 # define LISTEN_H
 
 # include <pocketsphinx.h>
-
+# include <stdbool.h>
+# include "libft/libft.h"
 // # define
 // # define
 
