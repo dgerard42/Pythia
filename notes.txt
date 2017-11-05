@@ -1,0 +1,19 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    notes.txt                                          :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: dgerard <marvin@42.fr>                     +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2017/10/26 19:50:04 by dgerard           #+#    #+#              #
+#    Updated: 2017/10/26 19:50:04 by dgerard          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+2017-11-04 19:07:14.883 pocketsphinx_continuous[64149:724759] 19:07:14.872 WARNING:  140: This application, or a library it uses, is using the deprecated Carbon Component Manager for hosting Audio Units. Support for this will be removed in a future release. Also, this makes the host incompatible with version 3 audio units. Please transition to the API's in AudioComponent.h.
+
+~ SO you are going to have to reinstall pocketsphinx using not homebrew
+~ because homebrew installs and old version
+~ use pip package manager instead, and write a script that will allow you to install
+	pip packages without the permission errors, like marvin's brew scripts
+
